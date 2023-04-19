@@ -5,10 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-    <title>Alerts</title>
+    <title>Notifications</title>
 </head>
 <body>
-    <h1>Hello Alerts</h1>
+
+  <section class="m-5 ">
+    <h1 class="d-flex align-items-center">Badges</h1>
+        <button type="button" class="btn btn-warning position-relative mt-2">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+    </section>
+
+
+    <section class="spinners m-3">
+        <h1>Spinners</h1>
+        <div class="d-flex align-items-center">
+            <strong>Loading...</strong>
+            <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+          </div>
+
+          <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            <span class="visually-hidden">Loading...</span>
+          </button>
+          <button class="btn btn-primary" type="button" disabled>
+            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            Loading...
+          </button>
+    </section>
+
+
+
+
+    <section class="container">
+        <section id="my-element" class="p-5 shadow mt-5 bg-light">
+            <h1 class="text-center">Function of Notification Badges and Spinners</h1>
+            <p class="text-center">The badges functionality it's to draw the atention of users, to verify a some new information or news.  </p>
+            <h3 class="text-center"> Spinners</h3>
+            <p class="text-center">The final purpose of the spinners is to show a graphic when some information or data is loading.</p>
+        </section>
+    </section>
+
+    <section>
+        <button class="btn btn-light mt-5 ms-5 mx-auto" style="width:200px;" >
+            <a href="./index.html" class="text-decoration-none">Go Back</a>
+        </button>
+    </section>
 </body>
 <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
 </html>
